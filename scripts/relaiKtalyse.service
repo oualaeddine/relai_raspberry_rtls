@@ -1,0 +1,13 @@
+[Unit]
+Description=Programe Relai de la société Ktalyse
+
+
+[Service]
+Type=simple
+WorkingDirectory=/home/pi/RelaiKtalyse
+ExecStart=/usr/bin/sudo /usr/bin/node src/relaiKtalyse.js
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,10 @@
+[Unit]
+Description=Timer du Programe Relai de la société Ktalyse
+
+[Timer]
+OnBootSec=2min
+Unit=relaiKtalyse.service
+
+
+[Install]
+WantedBy=multi-user.target

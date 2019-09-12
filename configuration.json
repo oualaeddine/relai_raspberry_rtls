@@ -1,0 +1,15 @@
+{
+  "mqtt" : {
+    "broker_url": "79.137.78.86",
+    "port": 1883,
+    "authentification": {
+      "username": "ktalyse",
+      "password": "ktalyse13"
+    },
+    "chanel_subscribe": "ktalyse/site1/relai",
+    "chanel_publish": "ktalyse/site1/central"
+  },
+  "localisation" : {
+    "id": "3"
+  }
+}
