@@ -22,30 +22,31 @@ mqttClient = new MQTTClient(configuration);
 
 console.log("connect mqtt");
 
+
+
 /*
-
-
 const obj = {
     event:"beaconData",
     data: {
         rssi:10,
         iBeacon:{
-            uuid:"788155919",
+            uuid:"746479674",
             txPower:10
         },
     }
-};
-
+};*/
+/*
 const obj1 = {
     event:"beaconData",
     data: {
         rssi:10,
         iBeacon:{
-                uuid:"779684696",
+                uuid:"612140443",
             txPower:10
         },
     }
-};
+};*/
+/*
 sendData();
 function sendData() {
     mqttClient.notify(obj);
@@ -53,6 +54,7 @@ function sendData() {
     setTimeout(sendData, 3000);
 }
 */
+
 
 
 mqttClient.connect();

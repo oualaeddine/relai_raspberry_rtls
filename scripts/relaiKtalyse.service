@@ -4,7 +4,7 @@ Description=Programe Relai de la société Ktalyse
 
 [Service]
 Type=simple
-WorkingDirectory=/home/pi/RelaiKtalyse
+WorkingDirectory=/home/relai_raspberry_rtls/src
 ExecStart=/usr/bin/sudo /usr/bin/node src/relaiKtalyse.js
 Restart=always
 User=pi

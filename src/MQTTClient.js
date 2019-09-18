@@ -44,7 +44,7 @@ module.exports = class MQTTClient {
         let response = typeof jsonObject !== "string"
             ? JSON.stringify(jsonObject) : jsonObject;
 
-        //console.log(response);
+        console.log(response);
 
         this.mqttClient.publish(this.chanPub, response);
     }
